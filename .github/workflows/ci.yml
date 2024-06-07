@@ -44,8 +44,5 @@ jobs:
       - name: Install dependencies
         run: npm install
         
-      - name: Replace test script
-        run: sed -i 's/"scripts": { "test": "echo \"Error: no test specified\" && exit 1" },/"scripts": { "test": "echo \"No test specified\"" },/' package.json
-
       - name: Run tests
         run: npm test
