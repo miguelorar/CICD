@@ -1,0 +1,12 @@
+{
+    "name": "cicd",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\""
+    },
+    "keywords": [],
+    "author": "miguel angel ortiz arboleda",
+    "license": "ISC"
+  }
